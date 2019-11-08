@@ -61,5 +61,4 @@ public class UserDao {
         String sql = "insert into sys_user(name,age,create_time) values(?,?,?)";
         template.update(sql, user.getName(), user.getAge(), user.getCreateTime());
     }
-
 }
